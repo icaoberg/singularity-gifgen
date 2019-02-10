@@ -21,4 +21,6 @@ Encoding GIF...
 Done!
 ```
 
-![GIF](https://media.giphy.com/media/46zP0XifWgQGFpi8fU/source.gif)
+<div>
+<iframe src="https://giphy.com/embed/46zP0XifWgQGFpi8fU?video=0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/46zP0XifWgQGFpi8fU">via GIPHY</a></p>
+</div>
