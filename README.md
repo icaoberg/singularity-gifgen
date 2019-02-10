@@ -22,5 +22,5 @@ Done!
 ```
 
 <div>
-<iframe src="https://giphy.com/embed/46zP0XifWgQGFpi8fU?video=0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/46zP0XifWgQGFpi8fU">via GIPHY</a></p>
+<img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="100%" />
 </div>
