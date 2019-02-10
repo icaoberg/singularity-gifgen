@@ -15,7 +15,7 @@ IncludeCmd: yes
     echo "Update aptitude"
     /usr/bin/apt-get update && apt-get install -y --no-install-recommends apt-utils
     /usr/bin/apt-get update --fix-missing
-    /usr/bin/apt-get install -y curl git
+    /usr/bin/apt-get install -y curl git ffmpeg
     git clone --depth 1 https://github.com/lukechilds/gifgen.git
     mv gifgen/gifgen /usr/local/bin
     rm -rf gifgen
