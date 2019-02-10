@@ -22,5 +22,6 @@ Done!
 ```
 
 <div>
-<img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="100%" />
+<img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="50%" />
+<br>Joaquin Sabina - 19 d&iacute;as y 500 noches
 </div>
