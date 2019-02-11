@@ -55,6 +55,9 @@ singularity help --app ffmpeg singularity-gifgen.simg
     For more information about ffmpeg visit https://www.ffmpeg.org/
 ```
 
+## Disclaimer
+I am nothing but a humble programmer creating the container for this wonderful app. Please visit the [original developer](https://github.com/lukechilds) for more info about the app.
+
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
