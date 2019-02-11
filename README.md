@@ -33,9 +33,27 @@ To download the image run the command
 singularity pull --name gifgen.simg shub://icaoberg/singularity-gifgen
 ```
 
-## Running the app
+## Help
 ```
-singularity run --app gifgen gifgen.simg
+singularity run --app gifgen singularity-gifgen.simg --help
+/usr/local/bin/gifgen: illegal option -- -
+/usr/local/bin/gifgen: illegal option -- e
+/usr/local/bin/gifgen: illegal option -- l
+/usr/local/bin/gifgen: illegal option -- p
+gifgen 1.1.2
+
+Usage: gifgen [options] [input]
+
+Options:
+  -o   Output file [input.gif]
+  -f   Frames per second [10]
+  -s   Optimize for static background
+  -v   Display verbose output from ffmpeg
+
+Examples:
+  $ gifgen video.mp4
+  $ gifgen -o demo.gif SCM_1457.mp4
+  $ gifgen -sf 15 screencap.mov
 ```
 
 ## Example
