@@ -30,3 +30,14 @@ IncludeCmd: yes
 
 %apprun gifgen
     gifgen "$@"
+
+####################################################################################
+%appenv ffmpeg
+    APP=/usr/bin/ffmpeg
+    export APP
+
+%apphelp ffmpeg
+    For more information about ffmpeg visit https://www.ffmpeg.org/
+
+%apprun ffmpeg
+    ffmpeg "$@"
