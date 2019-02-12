@@ -56,6 +56,11 @@ Examples:
   $ gifgen -sf 15 screencap.mov
 ```
 
+## Update image file
+```
+sudo singularity shell --writable singularity-gifgen.img
+```
+
 ## Example
 ```
 singularity run --app gifgen singularity-gifgen.simg joaquin_sabina-19dias_y_500noches.mp4
