@@ -63,7 +63,7 @@ sudo singularity shell --writable singularity-gifgen.img
 
 ## Example
 ```
-singularity run --app gifgen singularity-gifgen.simg joaquin_sabina-19dias_y_500noches.mp4
+singularity run --app gifgen gifgen.simg joaquin_sabina-19dias_y_500noches.mp4
 Generating palette...
 Encoding GIF...
 Done!
@@ -73,7 +73,7 @@ Done!
 Because `gifgen` depends on `ffmpeg`, the app is accessible as well
 
 ```
-singularity help --app ffmpeg singularity-gifgen.simg
+singularity help --app ffmpeg gifgen.simg
 
     For more information about ffmpeg visit https://www.ffmpeg.org/
 ```
