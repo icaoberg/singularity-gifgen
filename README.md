@@ -35,7 +35,7 @@ singularity pull --name gifgen.simg shub://icaoberg/singularity-gifgen
 
 ## Help
 ```
-singularity run --app gifgen singularity-gifgen.simg --help
+singularity run --app gifgen gifgen.simg --help
 /usr/local/bin/gifgen: illegal option -- -
 /usr/local/bin/gifgen: illegal option -- e
 /usr/local/bin/gifgen: illegal option -- l
@@ -58,7 +58,7 @@ Examples:
 
 ## Update image file
 ```
-sudo singularity shell --writable singularity-gifgen.img
+sudo singularity shell --writable gifgen.img
 ```
 
 ## Example
