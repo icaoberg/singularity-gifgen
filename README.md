@@ -26,13 +26,6 @@ singularity inspect singularity-gifgen.simg
 }
 ```
 
-## Download
-To download the image run the command
-
-```
-singularity pull --name gifgen.simg shub://icaoberg/singularity-gifgen
-```
-
 ## Help
 ```
 singularity run --app gifgen gifgen.simg --help
