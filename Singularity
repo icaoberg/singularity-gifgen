@@ -21,11 +21,11 @@ IncludeCmd: yes
     mv gifgen/gifgen /usr/local/bin
     rm -rf gifgen
 
-    mkdir /scratch
-    mkdir /share
-    mkdir /images
-    mkdir /projects
-    mkdir /containers
+    if [ ! -d /images ]; then mkdir /images; fi
+    if [ ! -d /projects ]; then mkdir /containers; fi
+    if [ ! -d /containers ]; then mkdir /containers; fi
+    if [ ! -d /share ]; then mkdir /share; fi
+    if [ ! -d /scratch ]; then mkdir /scratch; fi
 
 ####################################################################################
 %appenv gifgen
