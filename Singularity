@@ -21,6 +21,12 @@ IncludeCmd: yes
     mv gifgen/gifgen /usr/local/bin
     rm -rf gifgen
 
+    mkdir /scratch
+    mkdir /share
+    mkdir /images
+    mkdir /projects
+    mkdir /containers
+
 ####################################################################################
 %appenv gifgen
     APP=/usr/local/bin/gifgen
