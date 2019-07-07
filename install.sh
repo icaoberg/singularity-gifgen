@@ -16,6 +16,9 @@ if [ ! -f $DIRECTORY/$(echo $IMAGE | cut -d"-" -f2).simg ]; then
 	mv -v $(echo $IMAGE | cut -d"-" -f2).simg $DIRECTORY
 fi
 
+# ┌─────-┐
+# │gifgen│
+# └─────-┘
 cat << EOF > ~/bin/$(echo $IMAGE | cut -d"-" -f2)
 #!/bin/bash
 
