@@ -8,23 +8,10 @@
 ## About
 Singularity recipe for [gifgen](https://github.com/lukechilds/gifgen).
 
-```
-singularity inspect singularity-gifgen.simg
+## Installation
 
-{
-    "WEBSITE": "http://www.cbd.cmu.edu/icaoberg",
-    "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
-    "MAINTAINER": "icaoberg@cmu.edu",
-    "org.label-schema.usage.singularity.deffile": "Singularity",
-    "org.label-schema.schema-version": "1.0",
-    "org.label-schema.usage.singularity.deffile.includecmd": "yes",
-    "VERSION": "1.0",
-    "org.label-schema.usage.singularity.deffile.from": "ubuntu:16.04",
-    "org.label-schema.build-date": "Sun,_10_Feb_2019_21:45:38_-0500",
-    "org.label-schema.usage.singularity.version": "2.6.0-dist",
-    "org.label-schema.build-size": "782MB"
-}
-```
+* Install [Singularity v2.6.+](https://sylabs.io/docs/).
+* Run the script `install.sh` included in this repository.
 
 ## Help
 ```
@@ -47,11 +34,6 @@ Examples:
   $ gifgen video.mp4
   $ gifgen -o demo.gif SCM_1457.mp4
   $ gifgen -sf 15 screencap.mov
-```
-
-## Update image file
-```
-sudo singularity shell --writable gifgen.img
 ```
 
 ## Example
