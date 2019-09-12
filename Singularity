@@ -4,7 +4,8 @@ From: ubuntu:16.04
 IncludeCmd: yes
 
 %labels
-    MAINTAINER icaoberg@cmu.edu
+    AUTHOR icaoberg
+    MAINTAINER icaoberg@alumni.cmu.edu
     WEBSITE http://www.cbd.cmu.edu/icaoberg
     VERSION 1.0
 
@@ -22,10 +23,11 @@ IncludeCmd: yes
     rm -rf gifgen
 
     if [ ! -d /images ]; then mkdir /images; fi
-    if [ ! -d /projects ]; then mkdir /containers; fi
+    if [ ! -d /projects ]; then mkdir /projects; fi
     if [ ! -d /containers ]; then mkdir /containers; fi
     if [ ! -d /share ]; then mkdir /share; fi
     if [ ! -d /scratch ]; then mkdir /scratch; fi
+    if [ ! -d /webservers/pfenningweb ]; then mkdir -p /webservers/pfenningweb; fi
 
 ####################################################################################
 %appenv gifgen
