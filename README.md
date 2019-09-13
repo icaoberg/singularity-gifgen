@@ -1,4 +1,6 @@
 # gifgen
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2321)
+[![Build Status](https://travis-ci.org/icaoberg/singularity-gifgen.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-gifgen)
 
 <div>
 <img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="50%" />
