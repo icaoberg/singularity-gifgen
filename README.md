@@ -17,11 +17,7 @@ Singularity recipe for [gifgen](https://github.com/lukechilds/gifgen).
 
 ## Help
 ```
-singularity run --app gifgen gifgen.simg --help
-/usr/local/bin/gifgen: illegal option -- -
-/usr/local/bin/gifgen: illegal option -- e
-/usr/local/bin/gifgen: illegal option -- l
-/usr/local/bin/gifgen: illegal option -- p
+singularity run --app gifgen gifgen.simg -h
 gifgen 1.1.2
 
 Usage: gifgen [options] [input]
