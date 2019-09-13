@@ -1,6 +1,10 @@
 # gifgen
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2321)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-gifgen.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-gifgen)
+[![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-gifgen.svg)](https://github.com/icaoberg/singularity-gifgen/issues)
+[![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-gifgen.svg)](https://github.com/icaoberg/singularity-gifgen/network)
+[![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-gifgen.svg)](https://github.com/icaoberg/singularity-gifgen/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
 <div>
 <img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="50%" />
