@@ -1,5 +1,5 @@
 # gifgen
-[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2321)
+[![SyLabs.io](https://img.shields.io/badge/hosted-SyLabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/gifgen)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-gifgen.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-gifgen)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-gifgen.svg)](https://github.com/icaoberg/singularity-gifgen/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-gifgen.svg)](https://github.com/icaoberg/singularity-gifgen/network)
@@ -16,7 +16,7 @@ Singularity recipe for [gifgen](https://github.com/lukechilds/gifgen).
 
 ## Installation
 
-* Install [Singularity v2.6.+](https://sylabs.io/docs/).
+* Install [Singularity v3.5+](https://sylabs.io/docs/).
 * Run the script `install.sh` included in this repository.
 
 ## Help
@@ -64,4 +64,4 @@ I am nothing but a humble programmer creating the container for this wonderful a
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
-Copyleft © 2019 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+Copyleft © 2019-2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
