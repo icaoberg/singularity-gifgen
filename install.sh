@@ -1,28 +1,27 @@
 #!/bin/bash
 
-IMAGE=singularity-gifgen
+IMAGE=singularity-gifgen.simg
 DIRECTORY=~/.singularity
 
 if [ ! -d $DIRECTORY ]; then
 	mkdir $DIRECTORY
 fi
 
-if [ ! -d ~/bin ]; then
-	mkdir ~/bin
+if [ ! -d $HOME/bin/gifgen ]; then
+	mkdir -p $HOME/bin/gifgen
 fi
 
-if [ ! -f $DIRECTORY/$(echo $IMAGE | cut -d"-" -f2).simg ]; then
-	singularity pull --name $(echo $IMAGE | cut -d"-" -f2).simg shub://icaoberg/$IMAGE
-	mv -v $(echo $IMAGE | cut -d"-" -f2).simg $DIRECTORY
+if [ -f singularity-gifgen.simg ]; then
+	cp singularity-gifgen.simg $DIRECTORY/
+else
+	bash ./build.sh
+	mv singularity-gifgen.simg $DIRECTORY/
 fi
 
-# ┌─────-┐
-# │gifgen│
-# └─────-┘
-cat << EOF > ~/bin/$(echo $IMAGE | cut -d"-" -f2)
-#!/bin/bash
+if [ -f ~/.zshrc ]; then
+	SHELLRC=$HOME/.zshrc
 
-singularity run --app $(echo $IMAGE | cut -d"-" -f2) ~/.singularity/$(echo $IMAGE | cut -d"-" -f2).simg $1
-EOF
-
-chmod +x ~/bin/$(echo $IMAGE | cut -d"-" -f2)
+	echo "# gifgen on Singularity" >> $SHELLRC
+	COMMAND="alias gifgen='singularity run --app gifgen $HOME/.singularity/$IMAGE'"
+	echo $COMMAND >> $SHELLRC
+fi
