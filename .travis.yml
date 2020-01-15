@@ -5,6 +5,7 @@ sudo: required
 branches:
   only:
     - master
+    - dev
 
 env:
   - VERSION=2.6.0
