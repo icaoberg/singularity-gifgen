@@ -53,5 +53,3 @@ install:
 
 script:
   - bash ./build.sh
-  - du -h singularity-gifgen.simg
-  - singularity run --app gifgen singularity-gifgen.simg --help
