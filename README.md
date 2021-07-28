@@ -1,9 +1,9 @@
 # singularity-gifgen
-![Status](https://github.com/pscedu/singularity-gifgen/actions/workflows/main.yml/badge.svg)
-![Issue](https://img.shields.io/github/issues/pscedu/singularity-gifgen)
-![forks](https://img.shields.io/github/forks/pscedu/singularity-gifgen)
-![Stars](https://img.shields.io/github/stars/pscedu/singularity-gifgen)
-![License](https://img.shields.io/github/license/pscedu/singularity-gifgen)
+![Status](https://github.com/icaoberg/singularity-gifgen/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/icaoberg/singularity-gifgen)
+![forks](https://img.shields.io/github/forks/icaoberg/singularity-gifgen)
+![Stars](https://img.shields.io/github/stars/icaoberg/singularity-gifgen)
+![License](https://img.shields.io/github/license/icaoberg/singularity-gifgen)
 
 <div>
 <img src="./images/joaquin_sabina-19dias_y_500noches.gif" width="50%" />
