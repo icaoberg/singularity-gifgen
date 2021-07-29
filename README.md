@@ -10,16 +10,6 @@
 <br><a href="https://www.youtube.com/watch?v=NY_EOhHRTdo">Joaqu&iacute;n Sabina - 19 d&iacute;as y 500 noches</a>
 </div>
 
-## Installing the container on Bridges 2
-Copy the
-
-* `SIF` file
-* and the `gifgen` scripts
-
-to `/opt/packages/gifgen/1.2.0`.
-
-Copy the file `modulefile.lua` to `/opt/modulefiles/gifgen` as `1.2.0.lua`.
-
 ## Building the image using the recipe
 ### To build the image locally
 Run the script `build.sh` to build image locally.
