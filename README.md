@@ -1,5 +1,6 @@
 # singularity-gifgen
 ![Status](https://github.com/icaoberg/singularity-gifgen/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/icaoberg/singularity-gifgen/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/icaoberg/singularity-gifgen)
 ![forks](https://img.shields.io/github/forks/icaoberg/singularity-gifgen)
 ![Stars](https://img.shields.io/github/stars/icaoberg/singularity-gifgen)
